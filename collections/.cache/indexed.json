@@ -1,239 +1,235 @@
 {
   "articles": {
     "index": {
-      "ticks": {
-        "1364857200.0": [
-          "/articles/example-3"
-        ],
-        "1365202800.0": [
-          "/articles/example"
-        ],
-        "1364770800.0": [
-          "/articles/example-2"
-        ],
-        "1365030000.0": [
-          "/articles/example-old"
-        ],
-        "1364943600.0": [
-          "/articles/example-liquid-post"
-        ],
-        "1365116400.0": [
-          "/articles/example-post-haml"
-        ]
-      },
       "title": {
-        "Example": [
-          "/articles/example"
-        ],
         "Example Old": [
           "/articles/example-old"
         ],
-        "Example post HAML": [
-          "/articles/example-post-haml"
-        ],
-        "Example post 3": [
-          "/articles/example-3"
+        "Example Liquid Post": [
+          "/articles/example-liquid-post"
         ],
         "Example post 2": [
           "/articles/example-2"
         ],
-        "Example Liquid Post": [
+        "Example post 3": [
+          "/articles/example-3"
+        ],
+        "Example": [
+          "/articles/example"
+        ],
+        "Example post HAML": [
+          "/articles/example-post-haml"
+        ]
+      },
+      "ticks": {
+        "1365120000.0": [
+          "/articles/example-post-haml"
+        ],
+        "1365206400.0": [
+          "/articles/example"
+        ],
+        "1364774400.0": [
+          "/articles/example-2"
+        ],
+        "1364860800.0": [
+          "/articles/example-3"
+        ],
+        "1364947200.0": [
           "/articles/example-liquid-post"
+        ],
+        "1365033600.0": [
+          "/articles/example-old"
         ]
       },
       "tags": {
-        "news": [
-          "/articles/example-post-haml",
-          "/articles/example-old",
-          "/articles/example-liquid-post",
+        "example": [
+          "/articles/example-3",
           "/articles/example-2",
+          "/articles/example-post-haml",
           "/articles/example",
-          "/articles/example-3"
+          "/articles/example-liquid-post",
+          "/articles/example-old"
         ],
         "story": [
           "/articles/example-2"
         ],
-        "example": [
-          "/articles/example-post-haml",
-          "/articles/example-old",
-          "/articles/example-liquid-post",
+        "news": [
+          "/articles/example-3",
           "/articles/example-2",
+          "/articles/example-post-haml",
           "/articles/example",
-          "/articles/example-3"
+          "/articles/example-liquid-post",
+          "/articles/example-old"
         ]
       },
       "slug": {
-        "/articles/example-old": [
-          "/articles/example-old"
-        ],
-        "/articles/example-post-haml": [
-          "/articles/example-post-haml"
-        ],
-        "/articles/example-liquid-post": [
-          "/articles/example-liquid-post"
+        "/articles/example-2": [
+          "/articles/example-2"
         ],
         "/articles/example-3": [
           "/articles/example-3"
         ],
+        "/articles/example-post-haml": [
+          "/articles/example-post-haml"
+        ],
         "/articles/example": [
           "/articles/example"
         ],
-        "/articles/example-2": [
-          "/articles/example-2"
+        "/articles/example-old": [
+          "/articles/example-old"
+        ],
+        "/articles/example-liquid-post": [
+          "/articles/example-liquid-post"
         ]
       },
       "month": {
-        "03": [
+        "04": [
+          "/articles/example-3",
+          "/articles/example-2",
+          "/articles/example-post-haml",
+          "/articles/example",
+          "/articles/example-liquid-post",
+          "/articles/example-old"
+        ]
+      },
+      "mixture_date": {
+        "2013-04-03T00:00:00Z": [
+          "/articles/example-liquid-post"
+        ],
+        "2013-04-05T00:00:00Z": [
+          "/articles/example-post-haml"
+        ],
+        "2013-04-04T00:00:00Z": [
+          "/articles/example-old"
+        ],
+        "2013-04-06T00:00:00Z": [
+          "/articles/example"
+        ],
+        "2013-04-01T00:00:00Z": [
           "/articles/example-2"
         ],
-        "04": [
-          "/articles/example-post-haml",
-          "/articles/example-old",
-          "/articles/example-liquid-post",
-          "/articles/example",
+        "2013-04-02T00:00:00Z": [
           "/articles/example-3"
         ]
       },
       "year": {
         "2013": [
-          "/articles/example-post-haml",
-          "/articles/example-old",
-          "/articles/example-liquid-post",
+          "/articles/example-3",
           "/articles/example-2",
+          "/articles/example-post-haml",
           "/articles/example",
-          "/articles/example-3"
+          "/articles/example-liquid-post",
+          "/articles/example-old"
         ]
       },
       "mixture_month_year": {
         "04/2013": [
+          "/articles/example-3",
+          "/articles/example-2",
           "/articles/example-post-haml",
-          "/articles/example-old",
-          "/articles/example-liquid-post",
           "/articles/example",
-          "/articles/example-3"
-        ],
-        "03/2013": [
-          "/articles/example-2"
-        ]
-      },
-      "mixture_date": {
-        "2013-04-06T00:00:00+01:00": [
-          "/articles/example"
-        ],
-        "2013-04-01T00:00:00+01:00": [
-          "/articles/example-2"
-        ],
-        "2013-04-05T00:00:00+01:00": [
-          "/articles/example-post-haml"
-        ],
-        "2013-04-02T00:00:00+01:00": [
-          "/articles/example-3"
-        ],
-        "2013-04-03T00:00:00+01:00": [
-          "/articles/example-liquid-post"
-        ],
-        "2013-04-04T00:00:00+01:00": [
+          "/articles/example-liquid-post",
           "/articles/example-old"
         ]
       }
     },
     "collection": {
-      "/articles/example-post-haml": {
-        "ticks": 1365116400.0,
+      "/articles/example-3": {
+        "ticks": 1364860800.0,
+        "title": "Example post 3",
         "tags": [
           "example",
           "news"
         ],
-        "title": "Example post HAML",
-        "slug": "/articles/example-post-haml",
-        "published": true,
-        "year": "2013",
+        "slug": "/articles/example-3",
+        "mixture_date": "2013-04-02T00:00:00Z",
         "month": "04",
-        "mixture_month_year": "04/2013",
-        "mixture_date": "2013-04-05T00:00:00+01:00",
-        "date": "Thu Apr 04 23:00:00 UTC 2013",
-        "body": "<p>\n  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla viverra laoreet fermentum. Aliquam faucibus eleifend fermentum. Aliquam convallis nunc id diam suscipit at viverra tellus bibendum. Sed mollis magna ut arcu cursus semper. In sed orci justo, non pretium dolor. Pellentesque convallis risus vitae sapien faucibus ultrices. Phasellus placerat nisl at justo convallis sit amet pulvinar sapien facilisis. Nullam quis mollis eros. Aenean nec aliquet augue. Nam egestas pretium justo, vel dignissim lectus aliquam imperdiet. Donec ac magna ut turpis ullamcorper mattis at a mauris. In ultrices elit nec diam pretium sollicitudin congue leo pellentesque.\n</p>\n<p>\n  Ut viverra magna nec elit facilisis suscipit. Vivamus et orci magna, vitae cursus libero. Nunc sit amet gravida nibh. Sed ut eros nisl. Sed massa ipsum, porttitor vel volutpat vel, vehicula quis nunc. Aenean et tincidunt quam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin lacinia, lacus nec ultrices rutrum, justo orci mollis velit, nec ultricies mauris massa id nunc. Donec id dolor a lectus accumsan vehicula. Integer aliquam nisl non odio egestas sollicitudin. Fusce vel ante a purus sagittis porta ac in lorem.\n</p>\n"
-      },
-      "/articles/example-old": {
-        "ticks": 1365030000.0,
-        "tags": [
-          "example",
-          "news"
-        ],
-        "title": "Example Old",
-        "slug": "/articles/example-old",
-        "published": true,
         "year": "2013",
-        "month": "04",
+        "body": "\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>\n\n<p>Nulla viverra laoreet fermentum. Aliquam faucibus eleifend fermentum. Aliquam convallis nunc id diam suscipit at viverra tellus bibendum. Sed mollis magna ut arcu cursus semper. In sed orci justo, non pretium dolor. Pellentesque convallis risus vitae sapien faucibus ultrices. Phasellus placerat nisl at justo convallis sit amet pulvinar sapien facilisis. Nullam quis mollis eros. Aenean nec aliquet augue. Nam egestas pretium justo, vel dignissim lectus aliquam imperdiet.</p>\n",
         "mixture_month_year": "04/2013",
-        "mixture_date": "2013-04-04T00:00:00+01:00",
-        "date": "Wed Apr 03 23:00:00 UTC 2013",
-        "body": "\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla viverra laoreet fermentum. Aliquam faucibus eleifend fermentum. Aliquam convallis nunc id diam suscipit at viverra tellus bibendum. Sed mollis magna ut arcu cursus semper. In sed orci justo, non pretium dolor. Pellentesque convallis risus vitae sapien faucibus ultrices. Phasellus placerat nisl at justo convallis sit amet pulvinar sapien facilisis. Nullam quis mollis eros. Aenean nec aliquet augue. Nam egestas pretium justo, vel dignissim lectus aliquam imperdiet. Donec ac magna ut turpis ullamcorper mattis at a mauris. In ultrices elit nec diam pretium sollicitudin congue leo pellentesque.</p>\n\n<p>Ut viverra magna nec elit facilisis suscipit. Vivamus et orci magna, vitae cursus libero. Nunc sit amet gravida nibh. Sed ut eros nisl. Sed massa ipsum, porttitor vel volutpat vel, vehicula quis nunc. Aenean et tincidunt quam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin lacinia, lacus nec ultrices rutrum, justo orci mollis velit, nec ultricies mauris massa id nunc. Donec id dolor a lectus accumsan vehicula. Integer aliquam nisl non odio egestas sollicitudin. Fusce vel ante a purus sagittis porta ac in lorem.</p>\n"
-      },
-      "/articles/example-liquid-post": {
-        "ticks": 1364943600.0,
-        "tags": [
-          "example",
-          "news"
-        ],
-        "title": "Example Liquid Post",
-        "slug": "/articles/example-liquid-post",
-        "published": true,
-        "year": "2013",
-        "month": "04",
-        "mixture_month_year": "04/2013",
-        "mixture_date": "2013-04-03T00:00:00+01:00",
-        "date": "Tue Apr 02 23:00:00 UTC 2013",
-        "body": "\n\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla viverra laoreet fermentum. Aliquam faucibus eleifend fermentum. Aliquam convallis nunc id diam suscipit at viverra tellus bibendum. Sed mollis magna ut arcu cursus semper. In sed orci justo, non pretium dolor. Pellentesque convallis risus vitae sapien faucibus ultrices. Phasellus placerat nisl at justo convallis sit amet pulvinar sapien facilisis. Nullam quis mollis eros. Aenean nec aliquet augue. Nam egestas pretium justo, vel dignissim lectus aliquam imperdiet. Donec ac magna ut turpis ullamcorper mattis at a mauris. In ultrices elit nec diam pretium sollicitudin congue leo pellentesque.</p>\n<p>Ut viverra magna nec elit facilisis suscipit. Vivamus et orci magna, vitae cursus libero. Nunc sit amet gravida nibh. Sed ut eros nisl. Sed massa ipsum, porttitor vel volutpat vel, vehicula quis nunc. Aenean et tincidunt quam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin lacinia, lacus nec ultrices rutrum, justo orci mollis velit, nec ultricies mauris massa id nunc. Donec id dolor a lectus accumsan vehicula. Integer aliquam nisl non odio egestas sollicitudin. Fusce vel ante a purus sagittis porta ac in lorem.</p>"
+        "date": "Tue Apr 02 00:00:00 UTC 2013",
+        "published": true
       },
       "/articles/example-2": {
-        "ticks": 1364770800.0,
+        "ticks": 1364774400.0,
+        "title": "Example post 2",
         "tags": [
           "example",
           "news",
           "story"
         ],
-        "title": "Example post 2",
         "slug": "/articles/example-2",
-        "published": true,
+        "mixture_date": "2013-04-01T00:00:00Z",
+        "month": "04",
         "year": "2013",
-        "month": "03",
-        "mixture_month_year": "03/2013",
-        "mixture_date": "2013-04-01T00:00:00+01:00",
-        "date": "Sun Mar 31 23:00:00 UTC 2013",
-        "body": "\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>\n\n<p>Nulla viverra laoreet fermentum. Aliquam faucibus eleifend fermentum. Aliquam convallis nunc id diam suscipit at viverra tellus bibendum. Sed mollis magna ut arcu cursus semper. In sed orci justo, non pretium dolor. Pellentesque convallis risus vitae sapien faucibus ultrices. Phasellus placerat nisl at justo convallis sit amet pulvinar sapien facilisis. Nullam quis mollis eros. Aenean nec aliquet augue. Nam egestas pretium justo, vel dignissim lectus aliquam imperdiet.</p>\n\n<p>Donec ac magna ut turpis ullamcorper mattis at a mauris. In ultrices elit nec diam pretium sollicitudin congue leo pellentesque.</p>\n\n<p>Ut viverra magna nec elit facilisis suscipit. Vivamus et orci magna, vitae cursus libero. Nunc sit amet gravida nibh. Sed ut eros nisl. Sed massa ipsum, porttitor vel volutpat vel, vehicula quis nunc. Aenean et tincidunt quam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin lacinia, lacus nec ultrices rutrum, justo orci mollis velit, nec ultricies mauris massa id nunc. Donec id dolor a lectus accumsan vehicula. Integer aliquam nisl non odio egestas sollicitudin. Fusce vel ante a purus sagittis porta ac in lorem.</p>\n"
+        "body": "\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>\n\n<p>Nulla viverra laoreet fermentum. Aliquam faucibus eleifend fermentum. Aliquam convallis nunc id diam suscipit at viverra tellus bibendum. Sed mollis magna ut arcu cursus semper. In sed orci justo, non pretium dolor. Pellentesque convallis risus vitae sapien faucibus ultrices. Phasellus placerat nisl at justo convallis sit amet pulvinar sapien facilisis. Nullam quis mollis eros. Aenean nec aliquet augue. Nam egestas pretium justo, vel dignissim lectus aliquam imperdiet.</p>\n\n<p>Donec ac magna ut turpis ullamcorper mattis at a mauris. In ultrices elit nec diam pretium sollicitudin congue leo pellentesque.</p>\n\n<p>Ut viverra magna nec elit facilisis suscipit. Vivamus et orci magna, vitae cursus libero. Nunc sit amet gravida nibh. Sed ut eros nisl. Sed massa ipsum, porttitor vel volutpat vel, vehicula quis nunc. Aenean et tincidunt quam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin lacinia, lacus nec ultrices rutrum, justo orci mollis velit, nec ultricies mauris massa id nunc. Donec id dolor a lectus accumsan vehicula. Integer aliquam nisl non odio egestas sollicitudin. Fusce vel ante a purus sagittis porta ac in lorem.</p>\n",
+        "mixture_month_year": "04/2013",
+        "date": "Mon Apr 01 00:00:00 UTC 2013",
+        "published": true
+      },
+      "/articles/example-post-haml": {
+        "ticks": 1365120000.0,
+        "title": "Example post HAML",
+        "tags": [
+          "example",
+          "news"
+        ],
+        "slug": "/articles/example-post-haml",
+        "mixture_date": "2013-04-05T00:00:00Z",
+        "month": "04",
+        "year": "2013",
+        "body": "<p>\n  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla viverra laoreet fermentum. Aliquam faucibus eleifend fermentum. Aliquam convallis nunc id diam suscipit at viverra tellus bibendum. Sed mollis magna ut arcu cursus semper. In sed orci justo, non pretium dolor. Pellentesque convallis risus vitae sapien faucibus ultrices. Phasellus placerat nisl at justo convallis sit amet pulvinar sapien facilisis. Nullam quis mollis eros. Aenean nec aliquet augue. Nam egestas pretium justo, vel dignissim lectus aliquam imperdiet. Donec ac magna ut turpis ullamcorper mattis at a mauris. In ultrices elit nec diam pretium sollicitudin congue leo pellentesque.\n</p>\n<p>\n  Ut viverra magna nec elit facilisis suscipit. Vivamus et orci magna, vitae cursus libero. Nunc sit amet gravida nibh. Sed ut eros nisl. Sed massa ipsum, porttitor vel volutpat vel, vehicula quis nunc. Aenean et tincidunt quam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin lacinia, lacus nec ultrices rutrum, justo orci mollis velit, nec ultricies mauris massa id nunc. Donec id dolor a lectus accumsan vehicula. Integer aliquam nisl non odio egestas sollicitudin. Fusce vel ante a purus sagittis porta ac in lorem.\n</p>\n",
+        "mixture_month_year": "04/2013",
+        "date": "Fri Apr 05 00:00:00 UTC 2013",
+        "published": true
       },
       "/articles/example": {
-        "ticks": 1365202800.0,
-        "tags": [
-          "example",
-          "news"
-        ],
+        "ticks": 1365206400.0,
         "title": "Example",
-        "slug": "/articles/example",
-        "published": true,
-        "year": "2013",
-        "month": "04",
-        "mixture_month_year": "04/2013",
-        "mixture_date": "2013-04-06T00:00:00+01:00",
-        "date": "Fri Apr 05 23:00:00 UTC 2013",
-        "body": "\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla viverra laoreet fermentum.</p>\n"
-      },
-      "/articles/example-3": {
-        "ticks": 1364857200.0,
         "tags": [
           "example",
           "news"
         ],
-        "title": "Example post 3",
-        "slug": "/articles/example-3",
-        "published": true,
-        "year": "2013",
+        "slug": "/articles/example",
+        "mixture_date": "2013-04-06T00:00:00Z",
         "month": "04",
+        "year": "2013",
+        "body": "\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla viverra laoreet fermentum.</p>\n",
         "mixture_month_year": "04/2013",
-        "mixture_date": "2013-04-02T00:00:00+01:00",
-        "date": "Mon Apr 01 23:00:00 UTC 2013",
-        "body": "\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. </p>\n\n<p>Nulla viverra laoreet fermentum. Aliquam faucibus eleifend fermentum. Aliquam convallis nunc id diam suscipit at viverra tellus bibendum. Sed mollis magna ut arcu cursus semper. In sed orci justo, non pretium dolor. Pellentesque convallis risus vitae sapien faucibus ultrices. Phasellus placerat nisl at justo convallis sit amet pulvinar sapien facilisis. Nullam quis mollis eros. Aenean nec aliquet augue. Nam egestas pretium justo, vel dignissim lectus aliquam imperdiet.</p>\n"
+        "date": "Sat Apr 06 00:00:00 UTC 2013",
+        "published": true
+      },
+      "/articles/example-liquid-post": {
+        "ticks": 1364947200.0,
+        "title": "Example Liquid Post",
+        "tags": [
+          "example",
+          "news"
+        ],
+        "slug": "/articles/example-liquid-post",
+        "mixture_date": "2013-04-03T00:00:00Z",
+        "month": "04",
+        "year": "2013",
+        "body": "\n\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla viverra laoreet fermentum. Aliquam faucibus eleifend fermentum. Aliquam convallis nunc id diam suscipit at viverra tellus bibendum. Sed mollis magna ut arcu cursus semper. In sed orci justo, non pretium dolor. Pellentesque convallis risus vitae sapien faucibus ultrices. Phasellus placerat nisl at justo convallis sit amet pulvinar sapien facilisis. Nullam quis mollis eros. Aenean nec aliquet augue. Nam egestas pretium justo, vel dignissim lectus aliquam imperdiet. Donec ac magna ut turpis ullamcorper mattis at a mauris. In ultrices elit nec diam pretium sollicitudin congue leo pellentesque.</p>\n<p>Ut viverra magna nec elit facilisis suscipit. Vivamus et orci magna, vitae cursus libero. Nunc sit amet gravida nibh. Sed ut eros nisl. Sed massa ipsum, porttitor vel volutpat vel, vehicula quis nunc. Aenean et tincidunt quam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin lacinia, lacus nec ultrices rutrum, justo orci mollis velit, nec ultricies mauris massa id nunc. Donec id dolor a lectus accumsan vehicula. Integer aliquam nisl non odio egestas sollicitudin. Fusce vel ante a purus sagittis porta ac in lorem.</p>",
+        "mixture_month_year": "04/2013",
+        "date": "Wed Apr 03 00:00:00 UTC 2013",
+        "published": true
+      },
+      "/articles/example-old": {
+        "ticks": 1365033600.0,
+        "title": "Example Old",
+        "tags": [
+          "example",
+          "news"
+        ],
+        "slug": "/articles/example-old",
+        "mixture_date": "2013-04-04T00:00:00Z",
+        "month": "04",
+        "year": "2013",
+        "body": "\n<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla viverra laoreet fermentum. Aliquam faucibus eleifend fermentum. Aliquam convallis nunc id diam suscipit at viverra tellus bibendum. Sed mollis magna ut arcu cursus semper. In sed orci justo, non pretium dolor. Pellentesque convallis risus vitae sapien faucibus ultrices. Phasellus placerat nisl at justo convallis sit amet pulvinar sapien facilisis. Nullam quis mollis eros. Aenean nec aliquet augue. Nam egestas pretium justo, vel dignissim lectus aliquam imperdiet. Donec ac magna ut turpis ullamcorper mattis at a mauris. In ultrices elit nec diam pretium sollicitudin congue leo pellentesque.</p>\n\n<p>Ut viverra magna nec elit facilisis suscipit. Vivamus et orci magna, vitae cursus libero. Nunc sit amet gravida nibh. Sed ut eros nisl. Sed massa ipsum, porttitor vel volutpat vel, vehicula quis nunc. Aenean et tincidunt quam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin lacinia, lacus nec ultrices rutrum, justo orci mollis velit, nec ultricies mauris massa id nunc. Donec id dolor a lectus accumsan vehicula. Integer aliquam nisl non odio egestas sollicitudin. Fusce vel ante a purus sagittis porta ac in lorem.</p>\n",
+        "mixture_month_year": "04/2013",
+        "date": "Thu Apr 04 00:00:00 UTC 2013",
+        "published": true
       }
     }
   }
