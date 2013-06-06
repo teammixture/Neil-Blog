@@ -1,7 +1,11 @@
 <article>
 	<h2><a href="{{ article.slug }}">{{ article.title }}</a></h2>
+	{% if article.truncate %}
 	{% capture more %}... <a href="{{ article.slug }}" class="more">Read the post in full</a>{% endcapture %}
-	{{ article.body | truncatewords:50,more }}
-	<div class="details"><span>{{ article.date | date:'%a, %d %b %Y' }}</span>{% comment %} Tags: {{ article.tags | join:', ' }}.{% endcomment %}</div>
+		{{ article.body | truncatewords:50,more }}
+	{% else %}
+		{{ article.body }}
+	{% endif %}
+	<div class="details">Posted: <span>{{ article.date | date:'%a, %d %b %Y' }}</span>{% comment %} Tags: {{ article.tags | join:', ' }}.{% endcomment %}</div>
 	<hr>
 </article>

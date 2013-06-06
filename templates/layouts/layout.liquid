@@ -12,10 +12,11 @@
                 <article>
                     <h1>{{ model.title }}</h1>
                     {% block content %}{% endblock %}
-                    <div class="details"><span>{{ model.date | date:'%a, %d %b %Y' }}</span>{% comment %}. Tags: {{ model.tags | join:', ' }}.{% endcomment %}</div>
+                    <div class="details">Posted: <span>{{ model.date | date:'%a, %d %b %Y' }}</span>{% comment %}. Tags: {{ model.tags | join:', ' }}.{% endcomment %}</div>
                 </article>
             </div>
             {% include "footer" %}
         </div>
+        {{ "modernizr.min.js" | asset_url | script_tag }}
     </body>
 </html>

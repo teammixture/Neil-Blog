@@ -3,6 +3,7 @@ title: Example post 2
 tags: [example,news,story]
 published: true
 date: 2013-04-01 00:00
+truncate: 50
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. 
@@ -11,4 +12,10 @@ Nulla viverra laoreet fermentum. Aliquam faucibus eleifend fermentum. Aliquam co
 
 Donec ac magna ut turpis ullamcorper mattis at a mauris. In ultrices elit nec diam pretium sollicitudin congue leo pellentesque.
 
+> Ut viverra magna nec elit facilisis suscipit.
+
 Ut viverra magna nec elit facilisis suscipit. Vivamus et orci magna, vitae cursus libero. Nunc sit amet gravida nibh. Sed ut eros nisl. Sed massa ipsum, porttitor vel volutpat vel, vehicula quis nunc. Aenean et tincidunt quam. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Proin lacinia, lacus nec ultrices rutrum, justo orci mollis velit, nec ultricies mauris massa id nunc. Donec id dolor a lectus accumsan vehicula. Integer aliquam nisl non odio egestas sollicitudin. Fusce vel ante a purus sagittis porta ac in lorem.
+
+1. Item number 1
+2. Ut viverra magna nec elit facilisis
+3. Item number 4
