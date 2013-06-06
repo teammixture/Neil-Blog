@@ -1,0 +1,17 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>{% block title %}Collections{% endblock %}</title>
+        <link rel="shortcut icon" type="image/ico" href="{{ "favicon.ico" | asset_url }}" />
+        {{ "app.css" | asset_url | stylesheet_tag }}
+    </head>
+    <body>
+        <div class="wrapper">
+            {% include "header" %}
+            <div class="content">
+                {% block content %}{% endblock %}
+            </div>
+            {% include "footer" %}
+        </div>
+    </body>
+</html>

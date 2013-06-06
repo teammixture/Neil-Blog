@@ -1,0 +1,10 @@
+<item>
+	<title>{{ rss-item.title }}</title>
+	<link>http://neilkinnish.com{{ rss-item.slug }}</link>
+	<guid>{{ rss-item.slug }}</guid>
+	{% for category in rss-item.tags %}
+	<category>{{ category }}</category>
+	{% endfor %}
+	<pubDate>{{ rss-item.date | date:'%a, %d %b %Y %H:%M:%S GMT'}}</pubDate>
+	<description>{{ rss-item.body | html_encode }}</description>
+</item>

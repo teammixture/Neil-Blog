@@ -1,0 +1,42 @@
+{
+  "convertHtmlOutput": null,
+  "customRubyPath": null,
+  "debug": false,
+  "domain": null,
+  "followLeader": true,
+  "lintScripts": false,
+  "modelSource": null,
+  "preprocessorLocations": "assets",
+  "preprocessorScriptOutput": "assets/js",
+  "preprocessorStyleOutput": "assets/css",
+  "projectDescription": "A simple example project demonstrating Collections within Mixture",
+  "projectName": "Blog build",
+  "publishedId": "4364",
+  "remoteDebugPort": 0,
+  "routes": [
+    {
+      "redirect": null,
+      "route": "blog/page-:page",
+      "template": "blog"
+    },
+    {
+      "redirect": null,
+      "route": "blog/date/:month/:year",
+      "template": "blog"
+    },
+    {
+      "redirect": null,
+      "route": "portfolio/category/:category",
+      "template": "portfolio"
+    }
+  ],
+  "serverHostname": null,
+  "serverPort": null,
+  "simpleModeFileTypes": null,
+  "simpleModePartnerServer": null,
+  "templateDefaultLayout": "layout",
+  "templateDefaultPage": "index",
+  "templateDirectory": "templates",
+  "type": "mixture",
+  "useCompass": false
+}
