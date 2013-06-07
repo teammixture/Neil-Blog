@@ -16,18 +16,8 @@
   "routes": [
     {
       "redirect": null,
-      "route": "blog/page-:page",
-      "template": "blog"
-    },
-    {
-      "redirect": null,
-      "route": "blog/date/:month/:year",
-      "template": "blog"
-    },
-    {
-      "redirect": null,
-      "route": "portfolio/category/:category",
-      "template": "portfolio"
+      "route": "custom-api/:page",
+      "template": "custom-api"
     }
   ],
   "serverHostname": null,

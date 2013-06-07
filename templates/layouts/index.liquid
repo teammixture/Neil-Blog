@@ -4,6 +4,7 @@
         <title>{% block title %}Neil Kinnish{% endblock %} | Developer / Creative / Consultant. Currently meddling with new technology and ideas. Co-founder @teammixture @workfu.</title>
         <link rel="shortcut icon" type="image/ico" href="{{ "favicon.ico" | asset_url }}" />
         {{ "app.css" | asset_url | stylesheet_tag }}
+        {{ "modernizr.min.js" | asset_url | script_tag }}
     </head>
     <body>
         <div class="wrapper">
@@ -13,6 +14,7 @@
             </div>
             {% include "footer" %}
         </div>
-        {{ "modernizr.min.js" | asset_url | script_tag }}
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.0/jquery.min.js"></script>
+        {{ "app.js" | asset_url | script_tag }}
     </body>
 </html>

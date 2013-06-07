@@ -1,6 +1,7 @@
 {% layout "index" %}
 {% block content %} 
-	{% collection "articles" by 6 order desc %}
+	{% collection "articles" by 1 order desc %}
 		{% include "articles/article" with collection.items %}
 	{% endcollection %}
+	<div class="loadmore">Example</div>
 {% endblock %}

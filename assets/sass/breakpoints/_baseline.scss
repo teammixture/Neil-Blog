@@ -152,6 +152,27 @@ blockquote{
 	}
 }
 
+.loadmore{
+	margin-top:3em;
+}
+
+.loadmore .more{
+	@include vendor(border-radius,3px);
+	@include font-size(18px);
+	line-height:2em;
+	color:#fff;
+	text-decoration:none;
+	padding:0 1.5em;
+	background-color:#999;
+	margin:0 auto;
+	display:table;
+	text-shadow: 0 -1px 0 rgba(0,0,0,.2);
+
+	&:hover{
+		background-color:#333;
+		text-decoration: none;
+	}
+}
 
 h2,h1{
 	font-family:$brand-face;
