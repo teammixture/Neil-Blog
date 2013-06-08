@@ -11,7 +11,7 @@
 		<copyright>&amp;copy;{{ 'now' | date: "%Y" }} Neil Kinnish</copyright>
 		<pubDate>Thu, 06 Jun 2013 12:17:05 GMT</pubDate>
 		<lastBuildDate>Thu, 06 Jun 2013 12:17:05 GMT</lastBuildDate>
-		{% collection "articles" by 10 order desc %}
+		{% collection "article" by 10 order desc %}
 			{% include "articles/rss-item" with collection.items %}
 		{% endcollection %}
 	</channel>

@@ -145,6 +145,7 @@ blockquote{
 	margin:1.5em 0 0 0;
 	background-color:#46b0db;
 	display:table;
+	text-shadow: 0 -1px 0 rgba(0,0,0,.2);
 
 	&:hover{
 		background-color:#999;
@@ -152,17 +153,32 @@ blockquote{
 	}
 }
 
-.loadmore{
+.paging{
 	margin-top:3em;
+	text-align:center;
+
+	span{
+		font-style:italic;
+	}
+
+	.next{
+		display:inline-block;
+		margin-left:1em;
+	}
+
+	.previous{
+		display:inline-block;
+		margin-right:1em;
+	}
 }
 
-.loadmore .more{
+.paging .more{
 	@include vendor(border-radius,3px);
-	@include font-size(18px);
+	@include font-size(15px);
 	line-height:2em;
 	color:#fff;
 	text-decoration:none;
-	padding:0 1.5em;
+	padding:0 2em;
 	background-color:#999;
 	margin:0 auto;
 	display:table;

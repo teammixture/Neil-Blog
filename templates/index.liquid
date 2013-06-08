@@ -1,7 +1,14 @@
 {% layout "index" %}
 {% block content %} 
-	{% collection "articles" by 1 order desc %}
-		{% include "articles/article" with collection.items %}
+	{% collection "article" by 2 order desc %}
+		{% if collection.current_page > collection.pages %}
+		<article>
+			<h1>Woah, you've paged too far!</h1>
+			<p>Would you like to go back to the <a href="/">home page</a>?</p>
+		</article>
+		{% else %}
+			{% include "articles/article" with collection.items %}
+			{% include "articles/paging" %}
+		{% endif %}
 	{% endcollection %}
-	<div class="loadmore">Example</div>
 {% endblock %}

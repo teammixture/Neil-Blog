@@ -1,34 +1,74 @@
 var page = 1;
+var notify = false;
 
 $(function() {
 
-	if ($(".loadmore").length > 0) {
-		loadMoreSetup();
+	if ($(".paging").length > 0){
+		paging();
 	}
+
+	/*if (window.location.hash){
+		
+		var tmpPage = window.location.hash.replace('#page-','')-1;
+
+		if (tmpPage != page)
+			notify = true;
+
+		page = tmpPage;
+
+		$(".more").trigger("click");
+	}*/
 
 });
 
-function loadMoreSetup() {
+function paging(){
 
-	var paging = $(".loadmore");
+	var paging = $(".paging");
 
-	//if (paging.children(".nxt").length > 0)
-	paging.html("<a href='#' class='more'>More Posts</a>");
+	if (paging.children(".next").length > 0)
+		paging.html("<a href='#page-2' class='more'>Next 2 Posts</a>");
+	else
+		paging.hide();
 
-	paging.on("click", ".more", function() {
+	paging.on("click", ".more", function(){
 
 		page++;
 
-		$.when($.ajax("/_collections?collection=articles&order=desc&rpp=1&page=" + page, 'json')).then(function(data, textStatus, jqXHR){
+		$.when($.ajax("/_collections?collection=article&order=desc&rpp=2&page=" + page, 'json')).then(function(data, textStatus, jqXHR){
 
-			for(i in data.collection)
-			{
+			var count = 0;
+
+			//if (notify)
+			//	$("<div class='break'>Just to let you know, you've skipped a few pages of posts</div>").insertBefore(".content .paging");
+
+			for(i in data.collection){
+				count++;
+
 				var item = data.collection[i];
-				$("<article><h2><a href=\"" + item.slug + "\">" + item.title + "</a></h2><p>" + item.body.stripHtml().truncateWords(50, item.slug) + "</p><div class=\"details\">Posted: <span>" + item.date.postedFormat() + "</span></div><hr></article>").insertBefore(".content .loadmore");
+
+				var body = item.body;
+
+				if (item.truncate)
+					body = body.stripHtml().truncateWords(50, item.slug)
+
+				var id = "";
+
+				if (count == 1)
+					id = " id='page-" + page + "'";
+
+				$("<article" + id + "><h2><a href=\"" + item.slug + "\">" + item.title + "</a></h2><p>" + body + "</p><div class=\"details\">Posted: <span>" + item.date.postedFormat() + "</span></div><hr></article>").insertBefore(".content .paging");
 			}
 
 			if (page >= data.total_pages)
-				$(".loadmore").hide();
+				paging.hide();
+			else{
+				var remaining = (data.page === data.total_pages) ? (data.total_records-((data.page-1) * data.records_per_page)) : data.records_per_page;
+				paging.children(".more").attr("href", "#page-" + data.page).text("Next " + remaining + " Posts");
+			}
+
+			$('html, body').animate({
+        		scrollTop: $("#page-" + page).offset().top
+     		}, 650);
 
 		});
 

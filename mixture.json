@@ -13,13 +13,6 @@
   "projectName": "Blog build",
   "publishedId": "4364",
   "remoteDebugPort": 0,
-  "routes": [
-    {
-      "redirect": null,
-      "route": "custom-api/:page",
-      "template": "custom-api"
-    }
-  ],
   "serverHostname": null,
   "serverPort": null,
   "simpleModeFileTypes": null,
@@ -28,5 +21,12 @@
   "templateDefaultPage": "index",
   "templateDirectory": "templates",
   "type": "mixture",
-  "useCompass": false
+  "useCompass": false,
+  "routes": [
+    {
+      "redirect": null,
+      "route": "page-:page",
+      "template": "index"
+    }
+  ]
 }
