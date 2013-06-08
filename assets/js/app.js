@@ -1,5 +1,6 @@
 var page = 1;
-var notify = false;
+var rrp = 3;
+//var notify = false;
 
 $(function() {
 
@@ -26,7 +27,7 @@ function paging(){
 	var paging = $(".paging");
 
 	if (paging.children(".next").length > 0)
-		paging.html("<a href='#page-2' class='more'>Next 2 Posts</a>");
+		paging.html("<a href='#page-2' class='more'>Next " + rrp + " Posts</a>");
 	else
 		paging.hide();
 
@@ -34,7 +35,7 @@ function paging(){
 
 		page++;
 
-		$.when($.ajax("/_collections?collection=article&order=desc&rpp=2&page=" + page, 'json')).then(function(data, textStatus, jqXHR){
+		$.when($.ajax("/_collections?collection=article&order=desc&rpp=" + rrp + "&page=" + page, 'json')).then(function(data, textStatus, jqXHR){
 
 			var count = 0;
 
