@@ -1,6 +1,6 @@
 {% layout "index" %}
 {% block content %} 
-	{% collection "article" by 3 order desc %}
+	{% collection "article" by 5 order desc %}
 		{% if collection.current_page > collection.pages and collection.size > 0 %}
 		<article>
 			<h1>Woah, you've paged too far!</h1>
@@ -12,6 +12,7 @@
 			<p>No articles have been posted here yet!</p>
 		</article>
 		{% else %}
+			{% assign currentpage = collection.current_page %}
 			{% include "articles/article" with collection.items %}
 			{% include "articles/paging" %}
 		{% endif %}

@@ -12,8 +12,8 @@
             <div class="content">
                 <article>
                     <h1>{{ model.title }}</h1>
+                    {% include "articles/date" with model.date %}
                     {% block content %}{% endblock %}
-                    <div class="details">Posted: <span>{{ model.date | date:'%a, %d %b %Y' }}</span>{% comment %}. Tags: {{ model.tags | join:', ' }}.{% endcomment %}</div>
                 </article>
             </div>
             {% include "footer" %}
