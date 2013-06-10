@@ -4,9 +4,9 @@ date: 2012-10-24 15:13
 published: true
 ---
 
-![workfu + noodles](http://25.media.tumblr.com/tumblr_mce0govH5S1r9z4ujo1_500.jpg)
+![workfu + noodles](/assets/img/mixture_mce0govH5S1r9z4ujo1_500.jpg)
 
-The last 12 months have been interesting to say the least, I’m gutted that WorkFu didn’t work out quite as planned, but super pleased that the experience has led to a very exciting new project, here’s a brief history and a bit more info on what I’m doing next.
+<span>The last 12 months have been interesting to say the least, I’m gutted that WorkFu didn’t work out quite as planned, but super pleased that the experience has led to a very exciting new project, here’s a brief history and a bit more info on what I’m doing next&#8230;</span>
 
 Around this time last year, the idea for [WorkFu](http://workfu.com) was born out of a small hack challenge between [Pete Nelson](http://twitter.com/petetak) and myself.
 
@@ -20,7 +20,7 @@ A couple of months ago it became obvious that WorkFu was growing into a very big
 
 A lot of lessons have been learnt during the WorkFu experience, Mike and myself recently talked at an [event](http://2012.shropgeek-revolution.co.uk/) and went through some of these.
 
-![Shropshire talk](http://24.media.tumblr.com/tumblr_mce0govH5S1r9z4ujo2_500.jpg)
+![Shropshire talk](/assets/img/mixture_mce0govH5S1r9z4ujo2_500.jpg)
 
 Recently we announced that we are now in positive discussions regarding the future of WorkFu, this is very exciting as it means the site can live on and move forward as we had always intended. I&#8217;m pleased to say that we&#8217;ll still be involved in a smaller capacity. We will of course announce more on this as and when we can.
 

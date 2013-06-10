@@ -1,5 +1,5 @@
 ---
-title: "Preview"
+title: "were-now-very-close-to-releasing-the-mac"
 date: 2012-09-19 14:02
 published: true
 ---

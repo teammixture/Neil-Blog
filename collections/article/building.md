@@ -4,7 +4,7 @@ date: 2013-03-20 09:34
 published: true
 ---
 
-![image](http://media.tumblr.com/5ea5091108914e34c4af40f6d42cb3fd/tumblr_inline_mjybqccyH81qz4rgp.png)
+![image](/assets/img/mixture_inline_mjybqccyH81qz4rgp.png)
 
 Over the last few months we&#8217;ve been building and alpha testing [Mixture](http://mixture.io).
 
@@ -14,15 +14,15 @@ It&#8217;s been a hard journey, the last two weeks have been particularly toug
 
 2 weeks ago we decided that we needed to implement the changes we had in mind before we moved into beta, it was a tough decision as we knew it was going to be a massive amount of work, but I&#8217;m very glad we did as I am really pleased with the outcome so far.
 
-We&#8217;re a small team and It&#8217;s the first desktop application we&#8217;ve built as we were firmly routed in the web, so it&#8217;s been a big challenge and a steep learning curve.
+We&#8217;re a small team and <span>It&#8217;s the first desktop application we&#8217;ve built as we were firmly routed in the web, so it&#8217;s been a big challenge and a steep learning curve.</span>
 
 The idea went from &#8220;Hey, lets build a simple app to aid our front-end development needs&#8221; to&#8230;
 
-* A native Mac application
-* A native Windows application
-* An API
-* A web service for published projects
-* A marketing site
+*   A native Mac application
+*   A native Windows application
+*   An API
+*   A web service for published projects
+*   A marketing site
 
 &#8230; and all of the &#8220;things&#8221; that come with each of these.
 

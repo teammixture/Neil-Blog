@@ -12,4 +12,4 @@ So we&#8217;ve created a small chrome extension that works with the developer to
 
 We&#8217;ll be releasing Mixture for preview very soon! for updates please follow @[TeamMixture](http://twitter.com/teammixture).
 
-[![Screen Shot](http://25.media.tumblr.com/tumblr_matlnphotY1r9z4ujo1_500.jpg)](http://neilkinnish.com/image/32148840420)
+[![Screen Shot](/assets/img/mixture_matlnphotY1r9z4ujo1_500.jpg)](http://neilkinnish.com/image/32148840420)

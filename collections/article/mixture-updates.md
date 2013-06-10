@@ -24,7 +24,7 @@ You can get hold of the project used in this video and have a play yourself:
 
 From day one Mixture enabled multi-device testing (including style injection &amp; live refresh) and this is enabled for Mixture projects and non-Mixture projects ([see this video](http://www.youtube.com/watch?v=ER-la4wunyo&amp;list=LLzjZ5b8kZQGmAjX2dzlzY_Q&amp;feature=mh_lolz)).
 
-We&#8217;ve gone a step further and added remote debugging and integrated [Weinre](http://people.apache.org/~pmuellr/weinre/docs/latest/), this makes it super easy to debug the markup, styles and even gives you access to the console log of the devices viewing your project.
+We&#8217;ve gone a step further and added remote debugging and integrated [weinre](http://people.apache.org/~pmuellr/weinre/docs/latest/), this makes it super easy to debug the markup, styles and even gives you access to the console log of the devices viewing your project.
 
 ###Routing
 
@@ -38,6 +38,6 @@ We&#8217;ve also added a redirect route allowing you to redirect anywhere based 
 
 You can now point Mixture at your own install of Ruby and Gems, this is useful if you want an easy way to use plugins with Compass or if you with to use an alpha version of Compass not supported by Mixture.
 
-There has of course also been many more small updates and improvements, you can see the change logs [Mac](http://docs.mixture.io/mac/changelog) and [Windows](http://docs.mixture.io/windows/changelog)
+There has of course also been many more small updates and improvements, you can view the change logs [Mac](http://docs.mixture.io/mac/changelog) &amp; [Windows](http://docs.mixture.io/windows/changelog)
 
-If you&#8217;re interested, I&#8217;m tweeting small bite-size Mixture tips on a regular basis, focused on individual features of Mixture and the tech involved. You can see these here [http://tips.neil.mixture.io](http://tips.neil.mixture.io).
+If you&#8217;re interested, I&#8217;m tweeting small bite-size Mixture tips on a regular basis, focused on individual features of Mixture and the tech involved. You can see these here [http://tips.neil.mixture.io](http://tips.neil.mixture.io)

@@ -20,7 +20,7 @@ Very soon we will roll out Mixture profiles and all of the goodness that these b
 
 Your profile page will look a little something like this&#8230;
 
-![image](http://media.tumblr.com/tumblr_menpx9Pug81r58dia.jpg)
+![image](/assets/img/mixture_menpx9Pug81r58dia.jpg)
 
 We will release more information about all the features coming very soon.
 
