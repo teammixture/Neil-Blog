@@ -1,10 +1,8 @@
 ---
-title: "Building"
+title: "Building Mixture"
 date: 2013-03-20 09:34
 published: true
 ---
-
-![image](/assets/img/mixture_inline_mjybqccyH81qz4rgp.png)
 
 Over the last few months we&#8217;ve been building and alpha testing [Mixture](http://mixture.io).
 

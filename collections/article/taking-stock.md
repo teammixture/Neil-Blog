@@ -63,6 +63,6 @@ It&#8217;s nice to write down our progress, we&#8217;ve come a very long way sin
 * Lots of additional 3rd party integrations, we&#8217;re working on some very cool integrations and options for Mixture projects (more on these soon)
 * Update the support site to improve the management and visibility of information.
 
-We&#8217;ve seen some amazing use cases for Mixture, had some awesome projects bult with it and thousands of projects have already been published.
+We&#8217;ve seen some amazing use cases for Mixture, had some awesome projects built with it and thousands of projects have already been published.
 
 Love to hear any thoughts or suggestions.

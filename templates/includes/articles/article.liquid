@@ -1,11 +1,15 @@
 <article>
 	<h2><a href="{{ article.slug }}">{{ article.title }}</a></h2>
 	{% include "articles/date" with article.date %}
+	{% comment %}
 	{% if forloop.first and currentpage == 1 %}
 		{{ article.body }}
 	{% else %}
 		{% capture more %}... <a href="{{ article.slug }}" class="more">Read the post in full</a>{% endcapture %}
 		<p>{{ article.body | strip_html | truncatewords:50,more }}</p>
 	{% endif %}
+	{% endcomment %}
+	{% capture more %}... <a href="{{ article.slug }}" class="more">Read the post in full</a>{% endcapture %}
+	<p>{{ article.body | strip_html | truncatewords:50,more }}</p>
 	<hr>
 </article>

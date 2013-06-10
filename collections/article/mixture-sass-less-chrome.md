@@ -11,5 +11,3 @@ Although not a new concept, we wanted to improve the process of debugging and in
 So we&#8217;ve created a small chrome extension that works with the developer tools, specifically the elements inspector. Selecting an element will show you the styles for that selection, each with a link to the original Sass/Less file and line number, clicking a link will talk to Mixture and open the file in your default IDE / Editor.
 
 We&#8217;ll be releasing Mixture for preview very soon! for updates please follow @[TeamMixture](http://twitter.com/teammixture).
-
-[![Screen Shot](/assets/img/mixture_matlnphotY1r9z4ujo1_500.jpg)](http://neilkinnish.com/image/32148840420)

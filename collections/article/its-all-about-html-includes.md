@@ -28,9 +28,9 @@ So if you want to use HTML and includes, here&#8217;s an example of how you can 
 
 <pre>&lt;!doctype html&gt;
 &lt;html&gt;
-&lt;body&gt;
-&lt;h1&gt;Page Headline&lt;/h1&gt;
-&lt;/body&gt;
+  &lt;body&gt;
+    &lt;h1&gt;Page Headline&lt;/h1&gt;
+  &lt;/body&gt;
 &lt;/html&gt;
 </pre>
 
@@ -38,10 +38,10 @@ Here&#8217;s the same markup with an include&#8230;
 
 <pre>&lt;!doctype html&gt;
 &lt;html&gt;
-&lt;body&gt;
-{% raw %}{% include "navigation" %}{% endraw %}
-&lt;h1&gt;Page Headline&lt;/h1&gt;
-&lt;/body&gt;
+  &lt;body&gt;
+    {% raw %}{% include "navigation" %}{% endraw %}
+    &lt;h1&gt;Page Headline&lt;/h1&gt;
+  &lt;/body&gt;
 &lt;/html&gt;
 </pre>
 
