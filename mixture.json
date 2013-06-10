@@ -9,9 +9,9 @@
   "preprocessorLocations": "assets",
   "preprocessorScriptOutput": "assets/js",
   "preprocessorStyleOutput": "assets/css",
-  "projectDescription": "A simple example project demonstrating Collections within Mixture",
-  "projectName": "Blog build",
-  "publishedId": "4364",
+  "projectDescription": "Neil Kinnish Blog",
+  "projectName": "Blog",
+  "publishedId": null,
   "remoteDebugPort": 0,
   "serverHostname": null,
   "serverPort": null,
@@ -27,101 +27,6 @@
       "redirect": null,
       "route": "page-:page",
       "template": "index"
-    },
-    {
-      "redirect": "/article/mixture-updates",
-      "route": "/post/50489167529/:tumblr-slug",
-      "template": null
-    },
-    {
-      "redirect": "/article/taking-stock",
-      "route": "/post/49005839345/:tumblr-slug",
-      "template": null
-    },
-    {
-      "redirect": "/article/small-but-important-updates",
-      "route": "/post/47144651152/:tumblr-slug",
-      "template": null
-    },
-    {
-      "redirect": "/article/its-all-about-html-includes",
-      "route": "/post/46680255952/:tumblr-slug",
-      "template": null
-    },
-    {
-      "redirect": "/article/building",
-      "route": "/post/45826178298/:tumblr-slug",
-      "template": null
-    },
-    {
-      "redirect": "/article/live-refresh-multi-device-testing-any-type-of",
-      "route": "/post/45434675864/:tumblr-slug",
-      "template": null
-    },
-    {
-      "redirect": "/article/project-insights",
-      "route": "/post/42421691698/:tumblr-slug",
-      "template": null
-    },
-    {
-      "redirect": "/article/mixture-pricing-plans",
-      "route": "/post/41442638229/:tumblr-slug",
-      "template": null
-    },
-    {
-      "redirect": "/article/mixture-build-screencasts",
-      "route": "/post/40006450888/:tumblr-slug",
-      "template": null
-    },
-    {
-      "redirect": "/article/is-there-an-appetite-for-front-end-dev-tools-on",
-      "route": "/post/39926986227/:tumblr-slug",
-      "template": null
-    },
-    {
-      "redirect": "/article/mixture-settings-theme",
-      "route": "/post/37925234281/:tumblr-slug",
-      "template": null
-    },
-    {
-      "redirect": "/article/mixture-next-steps",
-      "route": "/post/37397385703/:tumblr-slug",
-      "template": null
-    },
-    {
-      "redirect": "/article/getting-started-with-mixture",
-      "route": "/post/36586002800/:tumblr-slug",
-      "template": null
-    },
-    {
-      "redirect": "/article/12-months-pushing",
-      "route": "/post/34232775177/:tumblr-slug",
-      "template": null
-    },
-    {
-      "redirect": "/article/mixture-sass-less-chrome",
-      "route": "/post/32151185525/:tumblr-slug",
-      "template": null
-    },
-    {
-      "redirect": "/article/preview",
-      "route": "/post/31859507779/:tumblr-slug",
-      "template": null
-    },
-    {
-      "redirect": "/article/update",
-      "route": "/post/31821918526/:tumblr-slug",
-      "template": null
-    },
-    {
-      "redirect": "/article/jibber-jabber",
-      "route": "/post/31820834862/:tumblr-slug",
-      "template": null
-    },
-    {
-      "redirect": "/article/mixture-is-a-new-tool-i-am-working-on-with-pete",
-      "route": "/post/31819131515/:tumblr-slug",
-      "template": null
     }
   ]
 }
