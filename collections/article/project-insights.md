@@ -24,27 +24,27 @@ Not every browser [supports SVG](http://caniuse.com/#search=svg) and some that d
 
 Here&#8217;s the approach we took&#8230;
 
-**SVG compression**
+###SVG compression
 
 We created our SVGs with illustrator and then compressed them with [svgo](https://github.com/svg/svgo).
 
-**HTTP requests and spriting**
+###HTTP requests and spriting
 
 To resolve the issue of additional HTTP requests and lack of spriting, we Base64 encoded and embedded many of the SVGs into our stylesheet (it&#8217;s advisable to use gzip also).
 
 Creating Base64 data urls can be a slow and painful task. You can automate this task, but if thats not possible for you to setup and implement I created a small online [Base64 tool](http://neil.mixture.io/non) to make this process quicker and easier. You simply drag and drop your images or even a directory of images, and it will spit out a style sheet with the necessary embedded images - it&#8217;s pretty quick and I found it super useful.
 
-**Fallback / Browser support**
+###Fallback / Browser support
 
 We used the javascript from [grunticon](https://github.com/filamentgroup/grunticon) to serve our SVG styles to supporting browsers with a fallback to PNG for non supporting browsers. 
 
 For non-SVG browsers we only created standard PNGs (sprites where possible) no need to create retina versions.
 
-**Scaling &amp; Maintaing ratio**
+###Scaling &amp; Maintaing ratio
 
 To solve the issue we had with some browsers failing to scale and maintain ratio on SVGs, we created small transparent GIFs sized correctly and then applied the SVG image to the background of this image - this solved our issue.
 
-**Tooling / Workflow**
+###Tooling / Workflow
 
 Of course, I used [Mixture](http://mixture.io) to build and develop the project, this allowed me to test live on [multiple devices / browsers](http://www.youtube.com/watch?v=ER-la4wunyo) and keep Mike in the loop.
 
@@ -66,20 +66,20 @@ Using Mixtures [templating](http://docs.mixture.io/templates) and [models](http:
 * The backend developer used my models as a reference for the data needed (meaning they didn&#8217;t have to touch the markup). Of course I could have also been supplied the real data as JSON files upfront and built against them.
 * Modelling the data as you build the front-end allows you to think more about what you are implementing and potential issues can be resolved during the front-end build.
 
-**Summary of tools**
+###Summary of tools
 
 * [Base64 tool](http://neil.mixture.io/non)
 * SVG compression with [svgo](https://github.com/svg/svgo) *
 * [Grunticon](https://github.com/filamentgroup/grunticon)
 * [Mixture](http://mixture.io)
 
-**Useful resources**
+###Useful resources
 
 * Harry Roberts (csswizardry) blogged [Front-end performance](http://csswizardry.com/2013/01/front-end-performance-for-web-designers-and-front-end-developers/).
 * David Bushell has a nice [write up about SVG](http://dbushell.com/2013/02/04/a-primer-to-front-end-svg-hacking/).
 * [http://caniuse.com/#search=svg](http://caniuse.com/#search=svg)
 
-**Finally**
+###Finally
 
 I mentioned in a previous post that I was making some screencasts for [Mixture](http://mixture.io) - Apologies for the delay, I decided to use the Future Insights build to create the screencasts. As soon as I can I will be publishing.
 
