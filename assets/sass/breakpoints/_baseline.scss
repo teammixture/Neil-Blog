@@ -74,6 +74,20 @@ a{
 	margin:0 .5em 0 0;
 }
 
+.twitter{
+	display:inline-block;
+	position:absolute;
+	left:18em;
+	top:.8em;
+	
+	&:hover{
+		color:#00ABF0;
+		.icon{
+			fill:#00ABF0;
+		}
+	}
+}
+
 
 
 /*
@@ -179,7 +193,6 @@ blockquote{
 	@include vendor(border-radius,3px);
 	@include font-size(18px);
 	line-height:2.8em;
-	color:#fff;
 	text-decoration:none;
 	padding:0 2em;
 	margin:0 auto;
@@ -223,18 +236,15 @@ h3{
 	}
 }
 
-.twitter{
-	display:inline-block;
-	position:absolute;
-	left:18em;
-	top:.8em;
-	
-	&:hover{
-		color:#00ABF0;
-		.icon{
-			fill:#00ABF0;
-		}
-	}
+pre{
+	@include font-size(15px);
+	@include vendor(border-radius,3px);
+	font-family:monospace;
+	background-color:#fff;
+	border:1px dotted #e9e9e9;
+	padding:1em;
+	margin-top:1em;
+	margin-bottom:4em;
 }
 
 
@@ -273,6 +283,12 @@ h3{
 	}
 }
 
+
+
+/*
+ * SVG Icons
+ */
+
 .twitter-txt{
 	display:none;
 }
@@ -281,15 +297,4 @@ h3{
 	.twitter-txt{
 		display:block;
 	}
-}
-
-pre{
-	@include font-size(15px);
-	@include vendor(border-radius,3px);
-	font-family:monospace;
-	background-color:#fff;
-	border:1px dotted #e9e9e9;
-	padding:1em;
-	margin-top:1em;
-	margin-bottom:4em;
 }

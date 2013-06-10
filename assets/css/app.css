@@ -431,6 +431,16 @@ a {
   display: inline-block;
   margin: 0 .5em 0 0; }
 
+.twitter {
+  display: inline-block;
+  position: absolute;
+  left: 18em;
+  top: .8em; }
+  .twitter:hover {
+    color: #00ABF0; }
+    .twitter:hover .icon {
+      fill: #00ABF0; }
+
 /*
  * Content
  */
@@ -524,7 +534,6 @@ blockquote {
   font-size: 1.2rem;
   line-height: 1.27778;
   line-height: 2.8em;
-  color: #fff;
   text-decoration: none;
   padding: 0 2em;
   margin: 0 auto;
@@ -562,15 +571,21 @@ h3 {
     font-style: italic;
     border-bottom: 1px solid #e9e9e9; }
 
-.twitter {
-  display: inline-block;
-  position: absolute;
-  left: 18em;
-  top: .8em; }
-  .twitter:hover {
-    color: #00ABF0; }
-    .twitter:hover .icon {
-      fill: #00ABF0; }
+pre {
+  font-size: 15px;
+  font-size: 1rem;
+  line-height: 1.53333;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  -ms-border-radius: 3px;
+  -o-border-radius: 3px;
+  border-radius: 3px;
+  font-family: monospace;
+  background-color: #fff;
+  border: 1px dotted #e9e9e9;
+  padding: 1em;
+  margin-top: 1em;
+  margin-bottom: 4em; }
 
 /*
  * Footer
@@ -595,24 +610,11 @@ h3 {
     .page-foot > a:hover span {
       text-decoration: none; }
 
+/*
+ * SVG Icons
+ */
 .twitter-txt {
   display: none; }
 
 .no-svg .twitter-txt {
   display: block; }
-
-pre {
-  font-size: 15px;
-  font-size: 1rem;
-  line-height: 1.53333;
-  -webkit-border-radius: 3px;
-  -moz-border-radius: 3px;
-  -ms-border-radius: 3px;
-  -o-border-radius: 3px;
-  border-radius: 3px;
-  font-family: monospace;
-  background-color: #fff;
-  border: 1px dotted #e9e9e9;
-  padding: 1em;
-  margin-top: 1em;
-  margin-bottom: 4em; }

@@ -1,9 +1,13 @@
 <!doctype html>
 <html lang="en">
     <head>
+        <meta name="HandheldFriendly" content="True">
+        <meta name="MobileOptimized" content="320">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <title>{% block title %}Neil Kinnish{% endblock %} | Developer / Creative / Consultant. Currently meddling with new technology and ideas. Co-founder @teammixture @workfu.</title>
         <link rel="shortcut icon" type="image/ico" href="{{ "favicon.ico" | asset_url }}" />
         {{ "app.css" | asset_url | stylesheet_tag }}
+        <link rel="stylesheet" href="{{ "layout.css" | asset_url }}" media="(min-width:20em)">
         {{ "modernizr.min.js" | asset_url | script_tag }}
     </head>
     <body>
