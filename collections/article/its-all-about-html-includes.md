@@ -6,11 +6,11 @@ published: true
 
 Over the last few months I&#8217;ve read various conversations on Twitter and listened to podcast discussions regarding HTML and specifically template engines, the main gist of this conversation&#8230;
 
-&#8220;I just want to use HTML but with includes&#8221;
+> &#8220;I just want to use HTML but with includes&#8221;
 
 &#8230;and&#8230;
 
-&#8220;I don&#8217;t want to learn a new template language&#8221;
+> &#8220;I don&#8217;t want to learn a new template language&#8221;
 
 And of course we&#8217;ve had similar comments directed at us and our choice of template language for [Mixture](http://mixture.io) - Liquid.
 
@@ -39,7 +39,7 @@ Here&#8217;s the same markup with an include&#8230;
 <pre>&lt;!doctype html&gt;
 &lt;html&gt;
 &lt;body&gt;
-{% include "navigation" %}
+{% raw %}{% include "navigation" %}{% endraw %}
 &lt;h1&gt;Page Headline&lt;/h1&gt;
 &lt;/body&gt;
 &lt;/html&gt;
@@ -54,7 +54,7 @@ Which could load in something like this&#8230;
 
 Of course I would definitely recommend you look deeper and take advantage of features like &#8220;layouts&#8221; as it will totally improve your structure and workflow.
 
-If you&#8217;re interested to learn more, please check out the [Mixture docs](http://docs.mixture.io/templates)
+If you&#8217;re interested to learn more, please check out the [docs](http://docs.mixture.io/templates).
 
 I&#8217;ve also started a series of screencasts showcasing mixture and it&#8217;s features a big part of this will be templates and Liquid.
 

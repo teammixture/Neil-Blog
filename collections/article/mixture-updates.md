@@ -14,11 +14,11 @@ Inspired by tools like Jekyll, but designed to be more flexible.
 
 Here&#8217;s a quick video demonstrating this feature:
 
-[http://www.youtube.com/watch?v=zexkJ8wTOXg&amp;hd=1](http://www.youtube.com/watch?v=zexkJ8wTOXg&amp;hd=1)
+[Collections video](http://www.youtube.com/watch?v=zexkJ8wTOXg&amp;hd=1)
 
 You can get hold of the project used in this video and have a play yourself:
 
-[https://github.com/teammixture/mixture-collections](https://github.com/teammixture/mixture-collections)
+[Github repo](https://github.com/teammixture/mixture-collections)
 
 ###Remote Debugging (Multi-device)
 

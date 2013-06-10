@@ -24,6 +24,6 @@ So as of today and the latest update&#8230;
 
 If you use Mixture in simple mode and **don&#8217;t** set a partner server, Mixture will boot a lightweight version of its own server. This server will parse HTML files and assets, it will even add live refresh, style injection and multi-device ability automatically!
 
-<span>As an example, if in the root of your project directory you had a file called &#8220;about.html&#8221; you could simply &#8220;view locally&#8221; on Mixture and then go to the url &#8220;/about&#8221; to view that page. Any changes to styles or the page will be automatically visible.</span>
+As an example, if in the root of your project directory you had a file called &#8220;about.html&#8221; you could simply &#8220;view locally&#8221; on Mixture and then go to the url &#8220;/about&#8221; to view that page. Any changes to styles or the page will be automatically visible.
 
-<span>We really hope you like this small addition.</span>
+We really hope you like this small addition.

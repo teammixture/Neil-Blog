@@ -12,11 +12,11 @@ I will also share the Mixture published Url so as you can view and see the progr
 
 This may change, but I will aim to cover&#8230;
 
-*   Starting my project / quick Mixture overview / project structure
-*   Setting up my styles and preprocessing (I will be using Sass)
-*   Setting up my templates (layouts, includes)
-*   Using model test data with my templates and ajax calls (Models)
-*   Publishing and sharing my progress online
+* Starting my project / quick Mixture overview / project structure
+* Setting up my styles and preprocessing (I will be using Sass)
+* Setting up my templates (layouts, includes)
+* Using model test data with my templates and ajax calls (Models)
+* Publishing and sharing my progress online
 
 If you are interested in following my progress, please keep checkin my blog or follow me on [Twitter](http://twitter.com/neiltak)
 

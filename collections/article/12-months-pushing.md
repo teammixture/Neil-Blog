@@ -6,7 +6,7 @@ published: true
 
 ![workfu + noodles](/assets/img/mixture_mce0govH5S1r9z4ujo1_500.jpg)
 
-<span>The last 12 months have been interesting to say the least, I’m gutted that WorkFu didn’t work out quite as planned, but super pleased that the experience has led to a very exciting new project, here’s a brief history and a bit more info on what I’m doing next&#8230;</span>
+The last 12 months have been interesting to say the least, I’m gutted that WorkFu didn’t work out quite as planned, but super pleased that the experience has led to a very exciting new project, here’s a brief history and a bit more info on what I’m doing next&#8230;
 
 Around this time last year, the idea for [WorkFu](http://workfu.com) was born out of a small hack challenge between [Pete Nelson](http://twitter.com/petetak) and myself.
 

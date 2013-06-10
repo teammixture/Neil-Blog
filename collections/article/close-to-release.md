@@ -1,5 +1,5 @@
 ---
-title: "were-now-very-close-to-releasing-the-mac"
+title: "Close to release"
 date: 2012-09-19 14:02
 published: true
 ---
@@ -10,6 +10,6 @@ This video shows myself and Pete with the same Mixture project open through Drop
 
 It&#8217;s quite a cool side effect of using Mixture on a project managed by a service like Dropbox.
 
-If you&#8217;re not sure what Mixture is all about, please check out my [original post](/post/31819131515/mixture-is-a-new-tool-i-am-working-on-with-pete).
+If you&#8217;re not sure what Mixture is all about, please check out my [original post](/post/31819131515/mixture).
 
 If you&#8217;re interested in trying Mixture and would like to preview the apps when they are ready, please follow us on [Twitter](http://twitter.com/teammixture) for updates.

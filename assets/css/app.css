@@ -1,4 +1,3 @@
-@charset "UTF-8";
 @import url(//fonts.googleapis.com/css?family=Lato:400,700,400italic|Merriweather:400,700);
 /*
  * Setup
@@ -462,14 +461,14 @@ p {
   font-size: 1.2rem;
   line-height: 1.27778;
   line-height: 1.6em;
-  margin-top: .5em; }
+  margin-top: 1em; }
   p em {
     border-bottom: 1px solid #ccc;
     display: inline-block; }
 
 ul, ol {
   display: block;
-  margin: 1em 0 0 0; }
+  margin: 2em 0; }
   ul li, ol li {
     font-size: 18px;
     font-size: 1.2rem;
