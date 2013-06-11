@@ -25,6 +25,26 @@
             "route": "page-:page",
             "template": "index",
             "redirect": null
+        },
+        {
+            "redirect": "/article/live-refresh-multi-device-testing",
+            "route": "/post/45434675864/:tumblr-slug",
+            "template": null
+        },
+        {
+            "redirect": "/article/project-insights",
+            "route": "/post/42421691698/:tumblr-slug",
+            "template": null
+        },
+        {
+            "redirect": "/article/is-there-an-appetite",
+            "route": "/post/39926986227/:tumblr-slug",
+            "template": null
+        },
+        {
+            "redirect": "/article/mixture-sass-less-chrome",
+            "route": "/post/32151185525/:tumblr-slug",
+            "template": null
         }
     ],
     "customRubyPath": null,

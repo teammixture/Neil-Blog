@@ -1,10 +1,10 @@
-@import url(//fonts.googleapis.com/css?family=Lato:400,700,400italic|Merriweather:400,700);
 /*
  * Setup
  */
 /*
  * Settings
  */
+@import url(//fonts.googleapis.com/css?family=Lato:400,700,400italic|Merriweather:400,700);
 /* 
  * Mixins // Credit to Harry Roberts & inuit.css for these simple Mixins
  *
@@ -29,44 +29,41 @@
 /*
  * Mobile
  */
-@media only screen and (max-width: 30em) {
+@media only screen and (min-width: 30em) {
   /*
-   * Mobile
-   */
+ * Mobile
+ */
   .wrapper {
-    padding: 1em; }
+    padding: 2em; }
 
   /*
-   * Header
-   */
+ * Header
+ */
   .page-head p {
-    font-size: 13px;
-    font-size: 0.86667rem;
-    line-height: 1.76923;
-    line-height: 1.6em; }
-
+    font-size: 15px;
+    font-size: 1rem;
+    line-height: 1.53333; }
   .page-head .ident {
-    font-size: 25px;
-    font-size: 1.66667rem;
-    line-height: 1.84; }
+    font-size: 35px;
+    font-size: 2.33333rem;
+    line-height: 1.31429; }
 
   .twitter {
-    left: auto;
-    right: 1em;
-    top: .8em; }
+    left: 18em;
+    top: .8em;
+    right: auto; }
 
   /*
-   * Content
-   */
+ * Content
+ */
   article {
-    margin-top: 2em; }
+    margin-top: 3em; }
     article hr {
-      width: 100%; }
-
+      width: 50%; }
   p {
-    font-size: 13px;
-    font-size: 0.86667rem;
-    line-height: 1.76923;
+    font-size: 18px;
+    font-size: 1.2rem;
+    line-height: 1.27778;
     line-height: 1.6em; }
 
   ul, ol {
@@ -76,9 +73,8 @@
       font-size: 0.86667rem;
       line-height: 1.76923;
       line-height: 1.6em; }
-
   blockquote {
-    border-left: 3px solid #ccc; }
+    border-left: 5px solid #ccc; }
 
   .content .more {
     -webkit-border-radius: 3px;
@@ -86,42 +82,36 @@
     -ms-border-radius: 3px;
     -o-border-radius: 3px;
     border-radius: 3px;
-    font-size: 15px;
-    font-size: 1rem;
-    line-height: 1.53333;
-    line-height: 3em;
+    font-size: 14px;
+    font-size: 0.93333rem;
+    line-height: 1.64286;
+    line-height: 2.2em;
     color: #fff;
     text-decoration: none;
     padding: 0 .8em;
     background-color: #46b0db;
     display: table;
-    margin: 2em auto 0 auto;
-    width: 80%;
-    text-align: center; }
+    margin: 1.5em 0 0 0;
+    width: auto;
+    text-align: left; }
 
   .content h2, h1 {
-    font-size: 20px;
-    font-size: 1.33333rem;
-    line-height: 1.15; }
+    font-size: 30px;
+    font-size: 2rem;
+    line-height: 1.53333; }
 
   h3 {
-    font-size: 18px;
-    font-size: 1.2rem;
-    line-height: 1.27778; }
+    font-size: 22px;
+    font-size: 1.46667rem;
+    line-height: 1.04545; }
 
   .date {
-    font-size: 12px;
-    font-size: 0.8rem;
-    line-height: 1.91667;
-    margin: 0 0 1em 0; }
-
-  pre {
     font-size: 15px;
     font-size: 1rem;
     line-height: 1.53333; }
 
   .paging {
-    margin-top: 4em; }
+    margin-top: 5em; }
 
   .paging .more {
     -webkit-border-radius: 3px;
@@ -141,7 +131,8 @@
     font-style: italic;
     background-color: transparent;
     border: 1px dotted #e9e9e9;
-    color: #999; }
+    color: #999;
+    text-align: center; }
     .paging .more:hover {
       background-color: transparent;
       border: 1px dotted #46b0db;
@@ -149,19 +140,16 @@
       text-decoration: none; }
 
   /*
-   * Footer
-   */
+ * Footer
+ */
   .page-foot {
-    text-align: center; }
+    text-align: left; }
     .page-foot > span {
-      float: none;
-      display: inline-block;
-      text-align: center;
-      padding: 0;
-      margin: 1em 0 0 0; }
-    .page-foot > a {
-      float: none;
-      display: inline-block;
-      text-align: center;
-      padding: 0;
-      margin: 0 .5em; } }
+      float: right;
+      text-align: left;
+      margin: 1em 0 0 0; }    .page-foot > a {
+      margin-right: 1em;
+      float: right;
+      margin: 0 1em 0 0;
+      text-align: left; } }
+

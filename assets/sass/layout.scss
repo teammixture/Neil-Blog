@@ -14,6 +14,6 @@
 /*
  * Mobile
  */
-@media only screen and (max-width: 30em) {
-	@import "breakpoints/mobile";
+@media only screen and (min-width: 30em) {
+	@import "breakpoints/general";
 }

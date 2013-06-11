@@ -342,7 +342,7 @@ html, body {
 .wrapper {
   max-width: 1000px;
   min-height: 100%;
-  padding: 2em;
+  padding: 1em;
   margin: 0 auto; }
 
 canvas {
@@ -365,18 +365,19 @@ a {
   max-width: 650px;
   margin: 0 auto; }
   .page-head p {
-    font-size: 15px;
-    font-size: 1rem;
-    line-height: 1.53333;
+    font-size: 13px;
+    font-size: 0.86667rem;
+    line-height: 1.76923;
+    line-height: 1.6em;
     color: #999;
     display: inline-block;
     margin: .5em 0 1em 0;
     padding: 0; }
 
 .page-head .ident {
-  font-size: 35px;
-  font-size: 2.33333rem;
-  line-height: 1.31429;
+  font-size: 25px;
+  font-size: 1.66667rem;
+  line-height: 1.84;
   font-family: "Merriweather", sans-serif;
   font-weight: 700;
   color: #333333;
@@ -391,7 +392,8 @@ a {
 .twitter {
   display: inline-block;
   position: absolute;
-  left: 18em;
+  left: auto;
+  right: 1em;
   top: .8em; }
   .twitter:hover {
     color: #00ABF0; }
@@ -409,7 +411,7 @@ a {
     color: #46b0db; }
 
 article {
-  margin-top: 3em; }
+  margin-top: 2em; }
   article hr {
     background-color: #e9e9e9;
     border-width: 0;
@@ -418,16 +420,16 @@ article {
     line-height: 0;
     page-break-after: always;
     text-align: center;
-    width: 50%;
+    width: 100%;
     margin: 2em auto 0 auto; }
 
 article:last-of-type hr {
   display: none; }
 
 p {
-  font-size: 18px;
-  font-size: 1.2rem;
-  line-height: 1.27778;
+  font-size: 13px;
+  font-size: 0.86667rem;
+  line-height: 1.76923;
   line-height: 1.6em;
   margin-top: 1em; }
   p em {
@@ -444,7 +446,7 @@ ul, ol {
     line-height: 1.6em; }
 
 blockquote {
-  border-left: 5px solid #ccc;
+  border-left: 3px solid #ccc;
   padding: 0 0 0 1em;
   margin: 1.5em 0;
   color: #999; }
@@ -455,22 +457,24 @@ blockquote {
   -ms-border-radius: 3px;
   -o-border-radius: 3px;
   border-radius: 3px;
-  font-size: 14px;
-  font-size: 0.93333rem;
-  line-height: 1.64286;
-  line-height: 2em;
+  font-size: 15px;
+  font-size: 1rem;
+  line-height: 1.53333;
+  line-height: 2.5em;
   color: #fff;
   text-decoration: none;
   padding: 0 .8em;
-  margin: 1.5em 0 0 0;
   background-color: #46b0db;
-  display: table; }
+  display: table;
+  margin: 2em auto 0 auto;
+  width: 80%;
+  text-align: center; }
   .content .more:hover {
     background-color: #999;
     text-decoration: none; }
 
 .paging {
-  margin-top: 5em;
+  margin-top: 4em;
   text-align: center; }
   .paging span {
     font-style: italic; }
@@ -507,22 +511,25 @@ blockquote {
     text-decoration: none; }
 
 .content h2, h1 {
-  font-size: 30px;
-  font-size: 2rem;
-  line-height: 1.53333;
+  font-size: 20px;
+  font-size: 1.33333rem;
+  line-height: 1.15;
   font-family: "Merriweather", sans-serif; }
   .content h2 a, h1 a {
     color: #333333; }
 
 h3 {
-  font-size: 22px;
-  font-size: 1.46667rem;
-  line-height: 1.04545;
+  font-size: 18px;
+  font-size: 1.2rem;
+  line-height: 1.27778;
   font-family: "Merriweather", sans-serif;
   margin-top: 2em; }
 
 .date {
-  margin: 0 0 1em 0; }
+  margin: 0 0 1em 0;
+  font-size: 12px;
+  font-size: 0.8rem;
+  line-height: 1.91667; }
   .date span {
     color: #999;
     font-style: italic;
@@ -555,13 +562,21 @@ pre {
   margin: 5em auto 0 auto;
   padding-bottom: 1em;
   padding-top: 1em;
-  border-top: 1px solid #e9e9e9; }
+  border-top: 1px solid #e9e9e9;
+  text-align: center; }
   .page-foot > span {
-    float: right; }
+    float: none;
+    display: inline-block;
+    text-align: center;
+    padding: 0;
+    margin: 1em 0 0 0; }
   .page-foot > a {
-    float: left;
+    float: none;
     text-decoration: none;
-    margin-right: 1em; }
+    display: inline-block;
+    text-align: center;
+    padding: 0;
+    margin: 0 .5em; }
     .page-foot > a span {
       text-decoration: underline; }
     .page-foot > a:hover span {
