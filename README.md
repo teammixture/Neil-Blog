@@ -1,4 +1,4 @@
-# Blog (neilkinnish.com)
+# Blog [neilkinnish.com](http://neilkinnish.com)
 
 I'm currently migrating my blog from Tumblr to Mixture and the new collections feature. This is currently a work in progress project that I'm pushing chnages to daily.
 
