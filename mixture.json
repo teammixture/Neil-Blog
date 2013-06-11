@@ -29,6 +29,6 @@
     ],
     "customRubyPath": null,
     "remoteDebugPort": 0,
-    "useNodeSass": false,
+    "useNodeSass": true,
     "optimiseImages": true
 }

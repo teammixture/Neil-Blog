@@ -1,11 +1,10 @@
-@charset "UTF-8";
-@import url(//fonts.googleapis.com/css?family=Lato:400,700,400italic|Merriweather:400,700);
 /*
  * Setup
  */
 /*
  * Settings
  */
+@import url(//fonts.googleapis.com/css?family=Lato:400,700,400italic|Merriweather:400,700);
 /* 
  * Mixins // Credit to Harry Roberts & inuit.css for these simple Mixins
  *
@@ -14,29 +13,17 @@
 /*
  * Vendor
  */
-/* normalize.css v2.0.1 | MIT License | git.io/normalize */
+/*! normalize.css v2.0.1 | MIT License | git.io/normalize */
 /*
  *  Corrects `block` display not defined in IE 8/9.
  */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-nav,
-section,
-summary {
+article, aside, details, figcaption, figure, footer, header, hgroup, nav, section, summary {
   display: block; }
 
 /*
  *  Corrects `inline-block` display not defined in IE 8/9.
  */
-audio,
-canvas,
-video {
+audio, canvas, video {
   display: inline-block; }
 
 /*
@@ -81,8 +68,7 @@ a:focus {
 /*
  * Improves readability when focused and also mouse hovered in all browsers.
  */
-a:active,
-a:hover {
+a:active, a:hover {
   outline: 0; }
 
 /*
@@ -101,8 +87,7 @@ abbr[title] {
 /*
  * Addresses style set to `bolder` in Firefox 4+, Safari 5, and Chrome.
  */
-b,
-strong {
+b, strong {
   font-weight: bold; }
 
 /*
@@ -121,10 +106,7 @@ mark {
 /*
  * Corrects font family set oddly in Safari 5 and Chrome.
  */
-code,
-kbd,
-pre,
-samp {
+code, kbd, pre, samp {
   font-family: monospace, serif;
   font-size: 1em; }
 
@@ -151,8 +133,7 @@ small {
 /*
  * Prevents `sub` and `sup` affecting `line-height` in all browsers.
  */
-sub,
-sup {
+sub, sup {
   font-size: 75%;
   line-height: 0;
   position: relative;
@@ -205,10 +186,7 @@ legend {
  * 2. Corrects font size not being inherited in all browsers.
  * 3. Addresses margins set differently in Firefox 4+, Safari 5, and Chrome
  */
-button,
-input,
-select,
-textarea {
+button, input, select, textarea {
   font-family: inherit;
   /* 1 */
   font-size: 100%;
@@ -220,8 +198,7 @@ textarea {
  * Addresses Firefox 4+ setting `line-height` on `input` using `!important` in
  * the UA stylesheet.
  */
-button,
-input {
+button, input {
   line-height: normal; }
 
 /*
@@ -231,10 +208,7 @@ input {
  * 3. Improves usability and consistency of cursor style between image-type
  *    `input` and others.
  */
-button,
-html input[type="button"],
-input[type="reset"],
-input[type="submit"] {
+button, html input[type="button"], input[type="reset"], input[type="submit"] {
   -webkit-appearance: button;
   /* 2 */
   cursor: pointer;
@@ -243,16 +217,14 @@ input[type="submit"] {
 /*
  * Re-set default cursor for disabled elements.
  */
-button[disabled],
-input[disabled] {
+button[disabled], input[disabled] {
   cursor: default; }
 
 /*
  * 1. Addresses box sizing set to `content-box` in IE 8/9.
  * 2. Removes excess padding in IE 8/9.
  */
-input[type="checkbox"],
-input[type="radio"] {
+input[type="checkbox"], input[type="radio"] {
   box-sizing: border-box;
   /* 1 */
   padding: 0;
@@ -275,15 +247,13 @@ input[type="search"] {
  * Removes inner padding and search cancel button in Safari 5 and Chrome
  * on OS X.
  */
-input[type="search"]::-webkit-search-cancel-button,
-input[type="search"]::-webkit-search-decoration {
+input[type="search"]::-webkit-search-cancel-button, input[type="search"]::-webkit-search-decoration {
   -webkit-appearance: none; }
 
 /*
  * Removes inner padding and border in Firefox 4+.
  */
-button::-moz-focus-inner,
-input::-moz-focus-inner {
+button::-moz-focus-inner, input::-moz-focus-inner {
   border: 0;
   padding: 0; }
 
@@ -312,12 +282,7 @@ table {
   -webkit-box-sizing: border-box;
   box-sizing: border-box; }
 
-h1, h2, h3, h4, h5, h6,
-p, blockquote, pre,
-dl, dd, ol, ul,
-form, fieldset, legend,
-table, th, td, caption,
-hr {
+h1, h2, h3, h4, h5, h6, p, blockquote, pre, dl, dd, ol, ul, form, fieldset, legend, table, th, td, caption, hr {
   margin: 0;
   padding: 0; }
 
@@ -335,18 +300,10 @@ object, img {
   vertical-align: middle;
   max-width: 100%; }
 
-label,
-input,
-textarea,
-button,
-select,
-option {
+label, input, textarea, button, select, option {
   cursor: pointer; }
 
-.text-input:active,
-.text-input:focus,
-textarea:active,
-textarea:focus {
+.text-input:active, .text-input:focus, textarea:active, textarea:focus {
   cursor: text;
   outline: none; }
 
@@ -357,10 +314,10 @@ textarea:focus {
  */
 .cf, .page-foot {
   zoom: 1; }
-  .cf:before, .page-foot:before, .cf:after, .page-foot:after {
+  .cf:before, .cf:after {
     content: " ";
     display: table; }
-  .cf:after, .page-foot:after {
+  .cf:after {
     clear: both; }
 
 /* 
@@ -618,3 +575,4 @@ pre {
 
 .no-svg .twitter-txt {
   display: block; }
+
