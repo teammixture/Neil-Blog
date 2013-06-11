@@ -1,54 +1,54 @@
 {
-    "debug": false,
-    "lintScripts": false,
-    "preprocessorLocations": "assets",
-    "preprocessorScriptOutput": "assets/js",
-    "preprocessorStyleOutput": "assets/css",
-    "projectName": "Blog",
-    "projectDescription": "Neil Kinnish Blog",
-    "publishedId": null,
-    "serverHostname": null,
-    "serverPort": null,
-    "templateDirectory": "templates",
-    "templateDefaultLayout": "layout",
-    "templateDefaultPage": "index",
-    "type": "mixture",
-    "useCompass": false,
-    "simpleModePartnerServer": null,
-    "simpleModeFileTypes": null,
-    "modelSource": null,
-    "domain": null,
-    "convertHtmlOutput": null,
-    "followLeader": true,
-    "routes": [
-        {
-            "route": "page-:page",
-            "template": "index",
-            "redirect": null
-        },
-        {
-            "redirect": "/article/live-refresh-multi-device-testing",
-            "route": "/post/45434675864/:tumblr-slug",
-            "template": null
-        },
-        {
-            "redirect": "/article/project-insights",
-            "route": "/post/42421691698/:tumblr-slug",
-            "template": null
-        },
-        {
-            "redirect": "/article/is-there-an-appetite",
-            "route": "/post/39926986227/:tumblr-slug",
-            "template": null
-        },
-        {
-            "redirect": "/article/mixture-sass-less-chrome",
-            "route": "/post/32151185525/:tumblr-slug",
-            "template": null
-        }
-    ],
-    "customRubyPath": null,
-    "remoteDebugPort": 0,
-    "useNodeSass": true,
-    "optimiseImages": true
+  "convertHtmlOutput": null,
+  "customRubyPath": null,
+  "debug": false,
+  "domain": null,
+  "followLeader": true,
+  "lintScripts": false,
+  "modelSource": null,
+  "optimiseImages": true,
+  "preprocessorLocations": "assets",
+  "preprocessorScriptOutput": "assets/js",
+  "preprocessorStyleOutput": "assets/css",
+  "projectDescription": "Neil Kinnish Blog",
+  "projectName": "Blog",
+  "publishedId": null,
+  "remoteDebugPort": 0,
+  "routes": [
+    {
+      "redirect": null,
+      "route": "page-:page",
+      "template": "index"
+    },
+    {
+      "redirect": "/article/live-refresh-multi-device-testing",
+      "route": "/post/45434675864/:tumblr-slug",
+      "template": null
+    },
+    {
+      "redirect": "/article/project-insights",
+      "route": "/post/42421691698/:tumblr-slug",
+      "template": null
+    },
+    {
+      "redirect": "/article/is-there-an-appetite",
+      "route": "/post/39926986227/:tumblr-slug",
+      "template": null
+    },
+    {
+      "redirect": "/article/mixture-sass-less-chrome",
+      "route": "/post/32151185525/:tumblr-slug",
+      "template": null
+    }
+  ],
+  "serverHostname": null,
+  "serverPort": null,
+  "simpleModeFileTypes": null,
+  "simpleModePartnerServer": null,
+  "templateDefaultLayout": "layout",
+  "templateDefaultPage": "index",
+  "templateDirectory": "templates",
+  "type": "mixture",
+  "useCompass": false,
+  "useNodeSass": true
 }
