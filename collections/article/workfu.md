@@ -5,7 +5,7 @@ published: true
 disqus: "http://neilkinnish.com/post/34232775177"
 ---
 
-![workfu + noodles](/assets/img/noodles+workfu.jpg)
+![workfu + noodles](/assets/img/noodles_workfu.jpg)
 
 The last 12 months have been interesting to say the least, I’m gutted that WorkFu didn’t work out quite as planned, but super pleased that the experience has led to a very exciting new project, here’s a brief history and a bit more info on what I’m doing next&#8230;
 
@@ -21,7 +21,7 @@ A couple of months ago it became obvious that WorkFu was growing into a very big
 
 A lot of lessons have been learnt during the WorkFu experience, Mike and myself recently talked at an [event](http://2012.shropgeek-revolution.co.uk/) and went through some of these.
 
-![Shropshire talk](/assets/img/shropshire+talk.jpg)
+![Shropshire talk](/assets/img/shropshire_talk.jpg)
 
 Recently we announced that we are now in positive discussions regarding the future of WorkFu, this is very exciting as it means the site can live on and move forward as we had always intended. I&#8217;m pleased to say that we&#8217;ll still be involved in a smaller capacity. We will of course announce more on this as and when we can.
 

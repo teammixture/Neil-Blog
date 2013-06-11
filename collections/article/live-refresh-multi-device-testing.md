@@ -17,7 +17,7 @@ Mixture will also takes care of preprocessing (Sass, Less, Stylus, CoffeeScript)
 
 This video shows a standard Wordpress install running on Mamp with Mixture&#8230;
 
-<iframe frameborder="0" height="315" src="http://www.youtube.com/embed/UxUBvDU0qn4" width="420"></iframe>
+<p><iframe width="640" height="480" src="http://www.youtube.com/embed/UxUBvDU0qn4" frameborder="0" allowfullscreen></iframe></p>
 
 Oh and that&#8217;s not all&#8230; We&#8217;ve integrated BrowserStack and you can use this with non-mixture projects - it will even live refresh BrowserStack when you make a change :)
 

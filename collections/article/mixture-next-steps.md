@@ -42,4 +42,4 @@ The video shows the windows version of Mixture running on a project, with the fo
 
 Mixture live refreshes all machines on a change to the project files or when navigating on any of the devices all machines will follow and navigate to the same page (you may want to change the quality settings of the video before playing).
 
-<iframe frameborder="0" height="281" src="http://www.youtube.com/embed/yOM2_UATlWw?wmode=transparent&amp;autohide=1&amp;egm=0&amp;hd=1&amp;iv_load_policy=3&amp;modestbranding=1&amp;rel=0&amp;showinfo=0&amp;showsearch=0" width="500"></iframe>
+<p><iframe width="640" height="360" src="http://www.youtube.com/embed/ER-la4wunyo" frameborder="0" allowfullscreen></iframe></p>
