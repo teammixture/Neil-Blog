@@ -46,10 +46,10 @@ p{
 }
 
 ul,ol{
-	padding-left:1em;
+	padding-left: 0;
 
 	li{
-		@include font-size(13px);
+		@include font-size(18px);
 		line-height:1.6em;
 	}
 }

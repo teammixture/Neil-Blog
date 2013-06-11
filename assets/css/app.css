@@ -438,11 +438,12 @@ p {
 
 ul, ol {
   display: block;
-  margin: 2em 0; }
+  margin: 2em 0;
+  padding-left: 1em; }
   ul li, ol li {
-    font-size: 18px;
-    font-size: 1.2rem;
-    line-height: 1.27778;
+    font-size: 13px;
+    font-size: 0.86667rem;
+    line-height: 1.76923;
     line-height: 1.6em; }
 
 blockquote {
