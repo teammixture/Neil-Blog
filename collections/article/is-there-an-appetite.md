@@ -2,6 +2,7 @@
 title: "Is there an appetite for front-end dev tools on Windows?"
 date: 2013-01-07 13:35
 published: true
+disqus: "http://neilkinnish.com/post/39926986227"
 ---
 
 Over the last few months we have been actively building [Mixture](http://mixture.io) for the Mac &amp; Windows platforms - it has always been our aim to support both.

@@ -2,6 +2,7 @@
 title: "Small but important updates"
 date: 2013-04-04 23:26
 published: true
+disqus: "http://neilkinnish.com/post/47144651152/"
 ---
 
 If you&#8217;re using [Mixture](http://mixture.io) you may have noticed we are pushing updates continuously, improvements, fixes and new features.

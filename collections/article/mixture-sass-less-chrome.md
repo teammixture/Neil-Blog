@@ -2,6 +2,7 @@
 title: "Mixture + Sass + Less + Chrome"
 date: 2012-09-23 21:16
 published: true
+disqus: "http://neilkinnish.com/post/32151185525"
 ---
 
 Over the last few weeks we&#8217;ve been actively using Mixture on real projects, it&#8217;s fantastic as it not only allows us to find and fix bugs but also helps us improve the user experience and dream up new features that we think will aid the users development process and workflow. It&#8217;s also a great feeling to use a tool you&#8217;re building that really quenches a thirst.

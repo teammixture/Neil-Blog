@@ -2,6 +2,7 @@
 title: "Mixture pricing & plans"
 date: 2013-01-25 15:35
 published: true
+disqus: "http://neilkinnish.com/post/41442638229"
 ---
 
 Over the last few weeks people have been asking about the pricing and release schedule for [Mixture](http://mixture.io).

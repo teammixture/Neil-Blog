@@ -2,6 +2,7 @@
 title: "Mixture build + screencasts"
 date: 2013-01-08 11:20
 published: true
+disqus: "http://neilkinnish.com/post/40006450888"
 ---
 
 As of today I am going to begin building the front-end templates for [Mixture](http://mixture.io)&#8217;s registration, account management &amp; public profiles (screenshots below). These will be the real templates used when we open up access to Mixture - currently planned for the end of January / early February.

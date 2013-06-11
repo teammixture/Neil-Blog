@@ -2,6 +2,7 @@
 title: "Mixture: Settings / Theme"
 date: 2012-12-14 20:23
 published: true
+disqus: "http://neilkinnish.com/post/37925234281"
 ---
 
 We&#8217;re currently working on the GUI for the settings in MIxture and we started testing a new theme for the look and feel, here&#8217;s a couple of early screens&#8230;

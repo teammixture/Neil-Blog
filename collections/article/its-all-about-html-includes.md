@@ -2,6 +2,7 @@
 title: "It's all about HTML & Includes"
 date: 2013-03-30 16:36
 published: true
+disqus: "http://neilkinnish.com/post/46680255952/"
 ---
 
 Over the last few months I&#8217;ve read various conversations on Twitter and listened to podcast discussions regarding HTML and specifically template engines, the main gist of this conversation&#8230;

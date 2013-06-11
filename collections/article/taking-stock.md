@@ -2,6 +2,7 @@
 title: "Taking stock..."
 date: 2013-04-27 13:59
 published: true
+disqus: "http://neilkinnish.com/post/49005839345/"
 ---
 
 We&#8217;ve been progressing very quickly with Mixture over the last few months, today I decided to stop, breathe and make a quick log of where Mixture is today and whats coming next.

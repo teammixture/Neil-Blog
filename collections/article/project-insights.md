@@ -2,6 +2,7 @@
 title: "Project insights"
 date: 2013-02-06 10:35
 published: true
+disqus: "http://neilkinnish.com/post/42421691698"
 ---
 
 Over the last couple of weeks I&#8217;ve been working on the new [Future Insights](http://futureinsightslive.com) site with [Mike Kus](http://mikekus.com).

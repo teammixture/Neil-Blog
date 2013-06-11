@@ -2,6 +2,7 @@
 title: "WorkFu"
 date: 2012-10-24 15:13
 published: true
+disqus: "http://neilkinnish.com/post/34232775177"
 ---
 
 ![workfu + noodles](/assets/img/noodles+workfu.jpg)

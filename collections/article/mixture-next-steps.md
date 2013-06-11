@@ -2,6 +2,7 @@
 title: "Mixture: Next Steps"
 date: 2012-12-07 11:10
 published: true
+disqus: "http://neilkinnish.com/post/37397385703"
 ---
 
 Over the last few months we&#8217;ve been working incredibly hard to get [Mixture](http://mixture.io) up to a level that we could start previewing with a small group of users, take feedback, bug fix and move forward.

@@ -2,6 +2,7 @@
 title: "Live refresh & Multi-device testing, any type of project"
 date: 2013-03-15 19:20
 published: true
+disqus: "http://neilkinnish.com/post/45434675864"
 ---
 
 We are literally days away from releasing the public beta version of Mixture and we&#8217;ve added a feature that we&#8217;re pretty excited about.

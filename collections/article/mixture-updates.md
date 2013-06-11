@@ -2,6 +2,7 @@
 title: "Mixture updates"
 date: 2013-05-15 10:56
 published: true
+disqus: "http://neilkinnish.com/post/50489167529"
 ---
 
 We&#8217;ve just pushed some updates to Mixture, this is quite a big release featuring a number of new additions and improvements I&#8217;ve decided to log the main points here&#8230;
