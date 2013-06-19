@@ -2,7 +2,7 @@
   "convertHtmlOutput": null,
   "customRubyPath": null,
   "debug": false,
-  "domain": null,
+  "domain": "neilkinnish.com",
   "followLeader": true,
   "lintScripts": false,
   "modelSource": null,
@@ -12,7 +12,7 @@
   "preprocessorStyleOutput": "assets/css",
   "projectDescription": "Neil Kinnish Blog",
   "projectName": "Blog",
-  "publishedId": null,
+  "publishedId": "4455",
   "remoteDebugPort": 0,
   "routes": [
     {
